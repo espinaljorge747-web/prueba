@@ -76,6 +76,38 @@
                             <label>Apellido</label>
                             <input type="text", id="apellido",name="apellido", placeholder="Ingresa tu apellido aqui">
                         </div>
+                        <div>
+                            <label>Telefono</label>
+                            <input type="text",id="telefono", name="telefono", pattern="[0-9]{4}-[0-9]{4}", placeholder="Ingresa tu numero de telefono aqui">
+                        </div>
+                        <div>
+                            <label>Fecha de nacimiento</label>
+                            <input type="date",id="fecha nacimiento",name="fecha nacimiento", required min="2007-09-10">
+                        </div>
+                       <div>
+                            <label>Selecciona una sucursal</label>
+                            <select id="sucursal", name="sucursal" required>
+                                <option value="morazan">Bulevard Morazan</option>
+                                <option value="morazan">Bulevard Morazan</option>
+                                <option value="morazan">Bulevard Morazan</option>
+                                <option value="morazan">Bulevard Morazan</option>
+                                <option value="morazan">Bulevard Morazan</option>
+                            </select>
+                       </div>
+                       <div>
+                        <p>Selecciona tu opcion</p>
+                        <label><input type="radio", name="Opcion", value="primera">Chocolate</label>
+                        <label><input type="radio", name="Opcion", value="segunda">Fresa</label>
+                       </div>
+                       <div>
+                        <p>Seleccione dos</p>
+                        <label><input type="checkbox", name="Primero", value="primero">Opcion A</label>
+                       </div>
+                       <div>
+                        <select id="primero", name="seleccionar" required>
+                            <option value="Plaza">Plaza</option>
+                        </select>
+                       </div>
                     </fieldset>
                 </form>
             </section>
